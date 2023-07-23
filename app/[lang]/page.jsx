@@ -5,7 +5,11 @@ export default async function Home({ params: { lang } }) {
 
   const rawt = await getDictionary(lang);
 
-  const t = rawt?.home
+  console.log(rawt);
+
+  const t = rawt?.home;
+
+  console.log(t);
 
   return (
     <Main t={t} />
