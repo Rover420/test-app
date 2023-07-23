@@ -1,0 +1,30 @@
+{
+  "home": {
+    "clicks": "Current clicks:"
+  },
+  "signin": {
+    "title": "Sign in",
+    "username": "Username",
+    "pass": "Password",
+    "email": "E-Mail Address",
+    "remember": "Stay signed in",
+    "forgot": "Forgot your password?",
+    "submit": "Sign in",
+    "noacc": "Don't have an account?",
+    "register": "Create account"
+  },
+  "register": {
+    "title": "Registration",
+    "username": "Username",
+    "usererr": "4 to 30 characters.",
+    "pass": "Password",
+    "passerr": "8 to 50 characters.",
+    "repeat": "Confirm password",
+    "repeaterr": "Passwords must match.",
+    "email": "E-Mail Address",
+    "submit": "Sign up",
+    "providers": "You can also create an account with",
+    "gotacc": "Already have an account?",
+    "signin": "Sign in"
+  }
+}
