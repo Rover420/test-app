@@ -7,7 +7,7 @@ const Main = async ({ t }) => {
   return (
     <div style={{ height: '300vh' }}>
       <div style={{ display: 'flex', height: '100svh', justifyContent: 'center', alignItems: 'center' }}>
-        <Clicks t={t} providers={providers} prevClicks={prevClicks} />
+        <Clicks t={t} />
       </div>
     </div>
   )
