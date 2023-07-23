@@ -3,9 +3,9 @@ import styles from './page.module.css';
 import { useState, useEffect } from 'react';
 import { useStore } from '@/store/user';
 
-const Clicks = ({ t, prevClicks }) => {
+const Clicks = ({ t }) => {
   
-  const [clicks, setClicks] = useState(prevClicks ?? 0);
+  const [clicks, setClicks] = useState(0);
 
   const { socket } = useStore();
 
